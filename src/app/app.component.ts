@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { RouterOutlet } from '@angular/router';
 import { LoginComponent } from './pantallas/login/login.component';
 import { ApiService } from '../app/services/api.service';
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, LoginComponent, CommonModule],
+    imports: [RouterOutlet, LoginComponent],
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
