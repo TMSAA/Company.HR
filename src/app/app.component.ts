@@ -5,11 +5,11 @@ import { LoginComponent } from './pantallas/login/login.component';
 import { ApiService } from '../app/services/api.service';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, LoginComponent,CommonModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [RouterOutlet, LoginComponent, CommonModule],
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'Company.HR';
